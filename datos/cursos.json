@@ -1,0 +1,8 @@
+[
+  {"nombre": "Programación inicial", "area": "Programación", "turno": "Matutino", "cupos": 25, "descripcion": "Variables, condicionales, bucles y funciones."},
+  {"nombre": "Desarrollo web", "area": "Programación", "turno": "Vespertino", "cupos": 20, "descripcion": "Páginas web con HTML, CSS y JavaScript."},
+  {"nombre": "Redes de computadoras", "area": "Redes", "turno": "Vespertino", "cupos": 18, "descripcion": "Direccionamiento, cableado y configuración básica."},
+  {"nombre": "Seguridad informática", "area": "Redes", "turno": "Nocturno", "cupos": 15, "descripcion": "Buenas prácticas y protección de equipos."},
+  {"nombre": "Bases de datos", "area": "Datos", "turno": "Matutino", "cupos": 22, "descripcion": "Diseño de tablas y consultas SQL."},
+  {"nombre": "Planillas de cálculo", "area": "Datos", "turno": "Nocturno", "cupos": 30, "descripcion": "Fórmulas, gráficos y análisis de datos."}
+]

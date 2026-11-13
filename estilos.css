@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 900px;
+  margin: 24px auto;
+  padding: 0 16px;
+}
+
+.filtros {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.filtros input,
+.filtros select {
+  padding: 6px;
+}
+
+#estado {
+  color: #444444;
+}
+
+/* Contenedor de las tarjetas: Flexbox con pase de línea */
+.catalogo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.tarjeta {
+  flex: 1 1 240px;
+  border: 1px solid #cccccc;
+  border-radius: 8px;
+  padding: 12px 16px;
+}
+
+.tarjeta h2 {
+  font-size: 1.1rem;
+  margin: 0 0 6px 0;
+}
+
+.tarjeta .datos {
+  color: #1f4e79;
+  font-size: 0.9rem;
+  margin: 0 0 6px 0;
+}

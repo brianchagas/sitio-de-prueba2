@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de cursos</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <h1>Catálogo de cursos</h1>
+    <p>Los datos de los cursos se cargan desde el archivo <code>datos/cursos.json</code>.</p>
+
+    <!-- Controles para filtrar el catálogo -->
+    <div class="filtros">
+        <label for="busqueda">Buscar:</label>
+        <input type="text" id="busqueda" placeholder="Nombre o área del curso">
+
+        <label for="turno">Turno:</label>
+        <select id="turno">
+            <option value="">Todos</option>
+            <option value="Matutino">Matutino</option>
+            <option value="Vespertino">Vespertino</option>
+            <option value="Nocturno">Nocturno</option>
+        </select>
+
+        <button type="button" id="recargar">Recargar datos</button>
+    </div>
+
+    <!-- Mensajes de estado: cargando, cantidad de resultados o error -->
+    <p id="estado"></p>
+
+    <!-- Aquí JavaScript crea una tarjeta por cada curso -->
+    <div id="catalogo" class="catalogo"></div>
+
+    <script src="codigo.js"></script>
+</body>
+</html>
